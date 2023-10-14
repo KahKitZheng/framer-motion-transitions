@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  height: 84px;
+  width: 100%;
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  .menu-links {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    list-style: none;
+  }
+}

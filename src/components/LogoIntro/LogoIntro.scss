@@ -1,0 +1,20 @@
+.intro-wrapper {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .logo-intro {
+    display: flex;
+    font-size: clamp(1.5rem, 8vw, 15rem);
+    font-weight: 800;
+    max-width: 50vw;
+    perspective: 400px;
+    user-select: none;
+    margin: 0;
+
+    .letter {
+      min-width: clamp(1.5rem, 2.5vw, 8rem);
+    }
+  }
+}
