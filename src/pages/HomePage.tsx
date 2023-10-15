@@ -11,11 +11,14 @@ export default function HomePage() {
   const { index } = useParams();
 
   const BRAND = "It's fine";
-  const image = index
-    ? imageData.filter((image) => image.category === "japan")[parseInt(index)]
-    : null;
+  const image =
+    index !== undefined
+      ? imageData.filter((image) => image.category === "japan")[parseInt(index)]
+      : null;
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+
     const timeoutId = setTimeout(() => {
       document.body.style.overflow = "auto";
     }, 2000);
