@@ -1,6 +1,6 @@
 export const imageData = [
   {
-    id: crypto.randomUUID(),
+    id: "1",
     location: "Tokyo, Japan",
     date: "November 11, 2019",
     by: "Denys Nevozhai",
@@ -9,7 +9,7 @@ export const imageData = [
     src: "https://images.unsplash.com/photo-1573455494060-c5595004fb6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
   },
   {
-    id: crypto.randomUUID(),
+    id: "2",
     location: "Tokyo, Japan",
     date: "June 26, 2019",
     by: "Kae Ng",
@@ -18,7 +18,7 @@ export const imageData = [
     src: "https://images.unsplash.com/photo-1561503972-839d0c56de17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
   },
   {
-    id: crypto.randomUUID(),
+    id: "3",
     location: "Tokyo, Japan",
     date: "July 28, 2019",
     by: "Shigeki Wakabayashi",
@@ -27,7 +27,7 @@ export const imageData = [
     src: "https://images.unsplash.com/photo-1564284369929-026ba231f89b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
   },
   {
-    id: crypto.randomUUID(),
+    id: "4",
     location: "Tokyo, Japan",
     date: "December 3, 2016",
     by: "Clay Banks",
@@ -36,7 +36,7 @@ export const imageData = [
     src: "https://images.unsplash.com/photo-1480796927426-f609979314bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
   },
   {
-    id: crypto.randomUUID(),
+    id: "5",
     location: "Tokyo, Japan",
     date: "November 23, 2018",
     by: "Vista Wei",
@@ -45,7 +45,7 @@ export const imageData = [
     src: "https://images.unsplash.com/photo-1542931287-023b922fa89b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
   },
   {
-    id: crypto.randomUUID(),
+    id: "6",
     location: "Tokyo, Japan",
     date: "April 23, 2020",
     by: "Clay Banks",
@@ -54,7 +54,7 @@ export const imageData = [
     src: "https://images.unsplash.com/photo-1587653263995-422546a7a569?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
   },
   {
-    id: crypto.randomUUID(),
+    id: "7",
     location: "Tokyo, Japan",
     date: "February 8, 2021",
     by: "Rob Maxwell",
@@ -63,7 +63,7 @@ export const imageData = [
     src: "https://images.unsplash.com/photo-1612741389124-b659f38b528e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
   },
   {
-    id: crypto.randomUUID(),
+    id: "8",
     location: "Tokyo, Japan",
     date: "April 30, 2017",
     by: "Andre Benz",
@@ -72,7 +72,7 @@ export const imageData = [
     src: "https://images.unsplash.com/photo-1493515322954-4fa727e97985?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
   },
   {
-    id: crypto.randomUUID(),
+    id: "9",
     location: "Shinjuku, Tokyo, Japan",
     date: "August 6, 2020",
     by: "Sophie Keen",
@@ -81,7 +81,7 @@ export const imageData = [
     src: "https://images.unsplash.com/photo-1596713109885-c94bdfd7f19d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
   },
   {
-    id: crypto.randomUUID(),
+    id: "10",
     location: "Shizuoka Prefecture, Japan",
     date: "March 14, 2018",
     by: "Ian Valerio",
@@ -90,7 +90,7 @@ export const imageData = [
     src: "https://images.unsplash.com/photo-1521022826143-db9f75c3da2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
   },
   {
-    id: crypto.randomUUID(),
+    id: "11",
     location: "Tokyo, Japan",
     date: "November 11, 2019",
     by: "Denys Nevozhai",
@@ -99,7 +99,7 @@ export const imageData = [
     src: "https://images.unsplash.com/photo-1573455494057-12684d151bf4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
   },
   {
-    id: crypto.randomUUID(),
+    id: "12",
     location: "japan",
     date: "August 13, 2021",
     by: "masahiro miyagi",
@@ -108,7 +108,7 @@ export const imageData = [
     src: "https://images.unsplash.com/photo-1628850627071-42b3fb16533d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
   },
   {
-    id: crypto.randomUUID(),
+    id: "13",
     location: "Shinjuku Omoide Yokocho, Shinjuku-ku, Japan",
     date: "October 20, 2017",
     by: "Chris Yang",
@@ -117,7 +117,7 @@ export const imageData = [
     src: "https://images.unsplash.com/photo-1508504509543-5ca56440e013?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
   },
   {
-    id: crypto.randomUUID(),
+    id: "14",
     location: "Shinjuku, Tokyo, Japan",
     date: "April 9, 2019",
     by: "Yoav Aziz",
@@ -126,7 +126,7 @@ export const imageData = [
     src: "https://images.unsplash.com/photo-1554797589-7241bb691973?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
   },
   {
-    id: crypto.randomUUID(),
+    id: "15",
     location: "Tokyo, Japan",
     date: "January 17, 2018",
     by: "Meriç Dağlı",
@@ -135,7 +135,7 @@ export const imageData = [
     src: "https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
   },
   {
-    id: crypto.randomUUID(),
+    id: "16",
     location: "Daigo-ji, Kyoto, Japan",
     date: "May 26, 2019",
     by: "David Emrich",

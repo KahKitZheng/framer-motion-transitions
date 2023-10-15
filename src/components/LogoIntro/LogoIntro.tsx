@@ -51,7 +51,7 @@ const LogoIntro = (props: LogoIntroProps) => {
         <p className="logo-intro">
           {[...text].map((letter, letterIndex) => (
             <motion.span
-              key={letter}
+              key={letterIndex}
               className="letter"
               variants={letterVariants}
               initial="initial"
