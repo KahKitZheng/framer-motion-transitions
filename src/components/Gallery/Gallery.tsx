@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AnimatePresence, LayoutGroup, motion } from "framer-motion";
 import { imageData } from "../../data/imageData";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const images = imageData.filter((image) => image.category === "japan");
 
@@ -24,12 +24,15 @@ export default function Gallery({ imageItem }: GalleryProps) {
     imageItem
   );
 
+  const navigate = useNavigate();
+
   const handleImageClick = (image: ImageItem) => {
     setSelectedImage(image);
   };
 
   const handleCloseClick = () => {
     setSelectedImage(null);
+    navigate("/");
   };
 
   return (
