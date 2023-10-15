@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navigation from "../components/Navigation/Navigation";
 import Footer from "../components/Footer/Footer";
 import Gallery from "../components/Gallery/Gallery";
@@ -14,6 +14,19 @@ export default function HomePage() {
   const image = index
     ? imageData.filter((image) => image.category === "japan")[parseInt(index)]
     : null;
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      document.body.style.overflow = "auto";
+    }, 2000);
+
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      clearTimeout(timeoutId);
+      document.body.style.overflow = "auto";
+    };
+  }, []);
 
   return (
     <>
