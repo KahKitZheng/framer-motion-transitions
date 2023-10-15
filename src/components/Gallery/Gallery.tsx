@@ -82,7 +82,15 @@ function GalleryItem(props: GalleryItemProps) {
           alt=""
         />
         <div className="description">
-          <small className="author">{image.by}</small>
+          <a
+            className="author"
+            href={image.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {image.by}
+          </a>
           <small className="date">{image.date}</small>
         </div>
       </Link>
