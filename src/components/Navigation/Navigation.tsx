@@ -10,10 +10,10 @@ export default function Navigation(props: NavigationProps) {
       <nav className="nav">
         <p className="logo">{brand}</p>
         <ul className="menu-links">
-          <li>Example 1.</li>
-          <li>Example 2.</li>
-          <li>Example 3.</li>
-          <li>Example 4.</li>
+          <li>lorem</li>
+          <li>lorem</li>
+          <li>lorem</li>
+          <li>lorem</li>
         </ul>
       </nav>
     </header>
