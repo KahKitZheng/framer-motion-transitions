@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { AnimatePresence, LayoutGroup, motion } from "framer-motion";
 import { imageData } from "../../data/imageData";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const images = imageData.filter((image) => image.category === "japan");
 
