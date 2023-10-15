@@ -100,7 +100,14 @@ export function ImagePopup(props: ImagePopupProps) {
 
   return (
     <div>
-      <div className="shade" onClick={onClose} />
+      <motion.div
+        className="shade"
+        onClick={onClose}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 0.85 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.3 }}
+      />
       <motion.div className="wrapper" layout layoutId={image?.src}>
         <img src={image?.src} alt="" />
         <div className="comments">
