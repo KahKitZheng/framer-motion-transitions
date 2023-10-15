@@ -13,17 +13,17 @@
   box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.125);
   transition: transform 0.2s ease-in-out;
 
+  &:nth-child(odd) {
+    transform: rotate(2deg);
+  }
+
+  &:nth-child(3n + 1) {
+    transform: rotate(-1deg);
+  }
+
   &:hover {
     transform: scale(1.05);
   }
-
-  // &:nth-child(odd) .thumbnail {
-  //   transform: rotate(4deg);
-  // }
-
-  // &:nth-child(even) .thumbnail {
-  //   transform: rotate(-3deg);
-  // }
 
   .link {
     color: black;
