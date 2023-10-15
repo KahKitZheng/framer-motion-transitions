@@ -110,9 +110,9 @@ export function ImagePopup(props: ImagePopupProps) {
       />
       <motion.div className="wrapper" layout layoutId={image?.src}>
         <img src={image?.src} alt="" />
-        <div className="comments">
+        {/* <div className="comments">
           <button onClick={onClose}>close</button>
-        </div>
+        </div> */}
       </motion.div>
     </div>
   );
