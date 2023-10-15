@@ -66,6 +66,8 @@ type GalleryItemProps = {
 function GalleryItem(props: GalleryItemProps) {
   const { index, image, onClick } = props;
 
+  const navigate = useNavigate();
+
   return (
     <motion.div
       className="gallery-item"
@@ -73,7 +75,13 @@ function GalleryItem(props: GalleryItemProps) {
       animate={{ opacity: 1 }}
       transition={{ duration: 1, delay: 2 + index * 0.1 }}
     >
-      <Link to={`/image/${index}`} className="link" onClick={onClick}>
+      <div
+        className="link"
+        onClick={() => {
+          onClick();
+          navigate(`/image/${index}`);
+        }}
+      >
         <motion.img
           layout
           layoutId={image?.src}
@@ -93,7 +101,7 @@ function GalleryItem(props: GalleryItemProps) {
           </a>
           <small className="date">{image.date}</small>
         </div>
-      </Link>
+      </div>
     </motion.div>
   );
 }

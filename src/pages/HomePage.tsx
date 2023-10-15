@@ -11,10 +11,9 @@ export default function HomePage() {
   const { index } = useParams();
 
   const BRAND = "It's fine";
-  const image =
-    index !== undefined
-      ? imageData.filter((image) => image.category === "japan")[parseInt(index)]
-      : null;
+  const image = index
+    ? imageData.filter((image) => image.category === "japan")[parseInt(index)]
+    : null;
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -37,8 +36,10 @@ export default function HomePage() {
 
       <main>
         <AnimatePresence>
-          <LogoIntro text={BRAND} />
-          <Gallery imageItem={image || null} />
+          <>
+            <LogoIntro text={BRAND} />
+            <Gallery imageItem={image} />
+          </>
         </AnimatePresence>
       </main>
 
