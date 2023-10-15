@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { AnimatePresence, LayoutGroup, motion } from "framer-motion";
 import { imageData } from "../../data/imageData";
 import { Link, useNavigate } from "react-router-dom";
@@ -82,8 +82,8 @@ function GalleryItem(props: GalleryItemProps) {
           alt=""
         />
         <div className="description">
-          <small>{image.by}</small>
-          <small>{image.date}</small>
+          <small className="author">{image.by}</small>
+          <small className="date">{image.date}</small>
         </div>
       </Link>
     </motion.div>

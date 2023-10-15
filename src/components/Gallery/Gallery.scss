@@ -39,13 +39,16 @@
   }
 
   .description {
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    margin: 0.5rem;
+    padding: 0.5rem;
 
-    small {
+    .author {
       display: block;
+      font-weight: 700;
+    }
+
+    .date {
+      display: block;
+      color: hsla(0, 0%, 0%, 50%);
     }
   }
 }
